@@ -1,0 +1,4 @@
+**/__pycache__/
+gamedle.db
+league-champion-data.zip
+Pipfile.lock

@@ -1,0 +1,82 @@
+{
+    "name": "Aatrox",
+    "subtitle": "the Darkin Blade",
+    "role": "Fighter",
+    "description": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find... See More",
+    "abilities": [
+        {
+            "position": "Passive",
+            "name": "Deathbringer Stance",
+            "description": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health. ",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/passive/Aatrox_Passive.png"
+        },
+        {
+            "position": "Q",
+            "name": "The Darkin Blade",
+            "description": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AatroxQ.png"
+        },
+        {
+            "position": "W",
+            "name": "Infernal Chains",
+            "description": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AatroxW.png"
+        },
+        {
+            "position": "E",
+            "name": "Umbral Dash",
+            "description": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AatroxE.png"
+        }
+    ],
+    "skins": [
+        {
+            "name": "Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg"
+        },
+        {
+            "name": "Justicar Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg"
+        },
+        {
+            "name": "Mecha Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg"
+        },
+        {
+            "name": "Sea Hunter Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_3.jpg"
+        },
+        {
+            "name": "Blood Moon Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_7.jpg"
+        },
+        {
+            "name": "Prestige Blood Moon Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_8.jpg"
+        },
+        {
+            "name": "Victorious Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_9.jpg"
+        },
+        {
+            "name": "Odyssey Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_11.jpg"
+        },
+        {
+            "name": "Prestige Blood Moon Aatrox (2022)",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_20.jpg"
+        },
+        {
+            "name": "Lunar Eclipse Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_21.jpg"
+        },
+        {
+            "name": "DRX Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_30.jpg"
+        },
+        {
+            "name": "Prestige DRX Aatrox",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_31.jpg"
+        }
+    ]
+}
