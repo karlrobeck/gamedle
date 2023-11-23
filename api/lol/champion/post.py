@@ -12,8 +12,24 @@ async def endpoint(body: Champion, db: Session = Depends(getSession)) -> str:
     id: str = str(uuid1())
     body.name = body.name.lower()
 
-    #
+    if db.exec(select(LeagueChampion).where(LeagueChampion.name == body.name)).first():
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT, detail=("Champion already exists")
+        )
 
+    for skin in body.skins:
+        if db.exec(select(LeagueSkin).where(LeagueSkin.name == skin.name)).first():
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail=("Champion Skin already exists"),
+            )
+
+    for ability in body.abilities:
+        if db.exec(select(LeagueSkill).where(LeagueSkill.name == ability.name)).first():
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail=("Champion Ability already exists"),
+            )
     abilities = [
         LeagueSkill(
             id=str(uuid1()),

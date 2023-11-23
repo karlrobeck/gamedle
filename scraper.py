@@ -1,12 +1,8 @@
-import asyncio
-from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 import json
 import os
 import time
 from bs4 import BeautifulSoup
-import httpx
 import requests
-import requests_async as async_requests
 from bs4 import BeautifulSoup
 
 
@@ -25,7 +21,7 @@ def scrape_champion(link: str):
         x.find("img").attrs["src"]
         for x in html.find(
             "div", {"class": "style__OptionList-sc-1ac4kmt-3 ipfewp"}
-        ).findAll(
+        ).findAll(  # type: ignore
             "button"
         )  # type: ignore
     ]
@@ -46,7 +42,7 @@ def scrape_champion(link: str):
         for x in html.find(
             "ul",
             {"class": "style__CarouselContainer-sc-gky2mu-11 jOxjfS"},
-        ).findAll(
+        ).findAll(  # type: ignore
             "li"
         )  # type:ignore
     ]
