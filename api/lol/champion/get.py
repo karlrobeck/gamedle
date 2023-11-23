@@ -1,8 +1,8 @@
 from fastapi import Depends, status, HTTPException
 from sqlmodel import Session, select
-from lol.champion.schemas import Champion, ChampionAbilities, ChampionSkin
-from database.session import getSession
-from database.models import LeagueChampion, LeagueSkill, LeagueSkin
+from api.lol.champion.schemas import Champion, ChampionAbilities, ChampionSkin
+from api.database.session import getSession
+from api.database.models import LeagueChampion, LeagueSkill, LeagueSkin
 
 
 async def endpoint(name: str, db: Session = Depends(getSession)) -> Champion:

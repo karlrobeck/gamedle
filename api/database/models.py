@@ -1,6 +1,7 @@
 from typing import List
 from sqlalchemy import table
 from sqlmodel import Field, Relationship, SQLModel, create_engine
+import sys
 
 
 class LeagueSkin(SQLModel, table=True):
@@ -32,7 +33,7 @@ class LeagueChampion(SQLModel, table=True):
 
 
 engine = create_engine(
-    "sqlite:///./database/gamedle.db",
+    "sqlite:///./gamedle.db",
     echo=True,
     connect_args={"check_same_thread": False},
 )

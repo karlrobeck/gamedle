@@ -1,1 +1,1 @@
-tags = ["Champions"]
+tags = ["League of Legends Champions"]

@@ -2,10 +2,10 @@ import random
 from fastapi import Depends
 from sqlmodel import Session, select
 from sqlalchemy.sql.expression import func
-from lol.game.guess.skill.schemas import GuessTheSkill
-from database.models import LeagueChampion
+from api.lol.game.guess.skill.schemas import GuessTheSkill
+from api.database.models import LeagueChampion
 
-from database.session import getSession
+from api.database.session import getSession
 
 
 async def endpoint(db: Session = Depends(getSession)):

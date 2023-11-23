@@ -1,9 +1,9 @@
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, wait
 from fastapi import Depends, HTTPException, status
 from sqlmodel import Session, select
-from lol.champion.schemas import Champion
-from database.session import getSession
-from database.models import LeagueChampion, LeagueSkill, LeagueSkin
+from api.lol.champion.schemas import Champion
+from api.database.session import getSession
+from api.database.models import LeagueChampion, LeagueSkill, LeagueSkin
 from uuid import uuid1
 
 

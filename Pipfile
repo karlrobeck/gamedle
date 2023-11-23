@@ -11,6 +11,7 @@ pypox = "*"
 bs4 = "*"
 requests = "*"
 httpx = "*"
+pytest = "*"
 
 [dev-packages]
 

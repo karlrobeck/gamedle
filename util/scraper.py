@@ -96,7 +96,8 @@ if __name__ == "__main__":
         else:
             print(f"skipping {c}")
     json_files = []
-    # os.system(f"python {os.getcwd()}/api/database/models.py")
+    if not os.path.exists(f"{os.getcwd()}/gamedle.db"):
+        os.system(f"python {os.getcwd()}/api/database/models.py")
     for file in os.listdir(f"{os.getcwd()}/league/"):
         with open(f"{os.getcwd()}/league/{file}", "r") as f:
             json_files.append(json.loads(f.read()))
