@@ -1,1 +1,114 @@
-{"name": "Akali", "subtitle": "the Rogue Assassin", "role": "Assassin", "description": "Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one... See More", "abilities": [{"position": "Passive", "name": "Assassin's Mark", "description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next Attack with bonus range and damage.", "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/passive/Akali_P.png"}, {"position": "Q", "name": "Five Point Strike", "description": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.", "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AkaliQ.png"}, {"position": "W", "name": "Twilight Shroud", "description": "Akali drops a cover of smoke and briefly gains Move Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks. Attacking or using abilities will briefly reveal her.  ", "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AkaliW.png"}, {"position": "E", "name": "Shuriken Flip", "description": "Flip backward and fire a shuriken forward, dealing magic damage. The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.", "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AkaliE.png"}], "skins": [{"name": "Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg"}, {"name": "Stinger Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_1.jpg"}, {"name": "Infernal Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_2.jpg"}, {"name": "All-star Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_3.jpg"}, {"name": "Nurse Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_4.jpg"}, {"name": "Blood Moon Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_5.jpg"}, {"name": "Silverfang Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_6.jpg"}, {"name": "Headhunter Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_7.jpg"}, {"name": "Sashimi Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_8.jpg"}, {"name": "K/DA Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_9.jpg"}, {"name": "Prestige K/DA Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_13.jpg"}, {"name": "PROJECT: Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_14.jpg"}, {"name": "True Damage Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_15.jpg"}, {"name": "K/DA ALL OUT Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_32.jpg"}, {"name": "Crime City Nightmare Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_50.jpg"}, {"name": "Prestige K/DA Akali (2022)", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_60.jpg"}, {"name": "Star Guardian Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_61.jpg"}, {"name": "DRX Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_68.jpg"}, {"name": "Coven Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_70.jpg"}, {"name": "Prestige Coven Akali", "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_71.jpg"}]}
+{
+    "name": "Akali",
+    "subtitle": "the Rogue Assassin",
+    "role": "Assassin",
+    "description": "Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master. ",
+    "abilities": [
+        {
+            "position": "Passive",
+            "name": "Assassin's Mark",
+            "description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next Attack with bonus range and damage.",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/passive/Akali_P.png"
+        },
+        {
+            "position": "Q",
+            "name": "Five Point Strike",
+            "description": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AkaliQ.png"
+        },
+        {
+            "position": "W",
+            "name": "Twilight Shroud",
+            "description": "Akali drops a cover of smoke and briefly gains Move Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks. Attacking or using abilities will briefly reveal her.  ",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AkaliW.png"
+        },
+        {
+            "position": "E",
+            "name": "Shuriken Flip",
+            "description": "Flip backward and fire a shuriken forward, dealing magic damage. The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.",
+            "image": "https://ddragon.leagueoflegends.com/cdn/13.23.1/img/spell/AkaliE.png"
+        }
+    ],
+    "skins": [
+        {
+            "name": "Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg"
+        },
+        {
+            "name": "Stinger Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_1.jpg"
+        },
+        {
+            "name": "Infernal Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_2.jpg"
+        },
+        {
+            "name": "All-star Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_3.jpg"
+        },
+        {
+            "name": "Nurse Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_4.jpg"
+        },
+        {
+            "name": "Blood Moon Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_5.jpg"
+        },
+        {
+            "name": "Silverfang Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_6.jpg"
+        },
+        {
+            "name": "Headhunter Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_7.jpg"
+        },
+        {
+            "name": "Sashimi Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_8.jpg"
+        },
+        {
+            "name": "K/DA Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_9.jpg"
+        },
+        {
+            "name": "Prestige K/DA Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_13.jpg"
+        },
+        {
+            "name": "PROJECT: Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_14.jpg"
+        },
+        {
+            "name": "True Damage Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_15.jpg"
+        },
+        {
+            "name": "K/DA ALL OUT Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_32.jpg"
+        },
+        {
+            "name": "Crime City Nightmare Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_50.jpg"
+        },
+        {
+            "name": "Prestige K/DA Akali (2022)",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_60.jpg"
+        },
+        {
+            "name": "Star Guardian Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_61.jpg"
+        },
+        {
+            "name": "DRX Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_68.jpg"
+        },
+        {
+            "name": "Coven Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_70.jpg"
+        },
+        {
+            "name": "Prestige Coven Akali",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_71.jpg"
+        }
+    ]
+}

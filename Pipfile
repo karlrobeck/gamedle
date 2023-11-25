@@ -12,6 +12,8 @@ bs4 = "*"
 requests = "*"
 httpx = "*"
 pytest = "*"
+selenium = "*"
+webdriver-manager = "*"
 
 [dev-packages]
 

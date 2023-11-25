@@ -1,10 +1,12 @@
-from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, wait
 from fastapi import Depends, HTTPException, status
 from sqlmodel import Session, select
 from api.lol.champion.schemas import Champion
 from api.database.session import getSession
 from api.database.models import LeagueChampion, LeagueSkill, LeagueSkin
 from uuid import uuid1
+
+status_code = status.HTTP_201_CREATED
+summary = "Create League of legends Champion"
 
 
 async def endpoint(body: Champion, db: Session = Depends(getSession)) -> str:

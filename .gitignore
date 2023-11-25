@@ -2,3 +2,4 @@
 gamedle.db
 league-champion-data.zip
 Pipfile.lock
+.pytest_cache

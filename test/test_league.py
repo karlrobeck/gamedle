@@ -26,7 +26,6 @@ class TestChampion(TestLeague):
         """
         Fetches the names of the champions from the League of Legends website.
         """
-
         with httpx.Client() as session:
             response: Response = session.get(
                 "https://www.leagueoflegends.com/en-ph/champions/"
@@ -43,7 +42,6 @@ class TestChampion(TestLeague):
         """
         Test case to check the POST endpoint of the champion API.
         """
-
         self.fetch_champion_names()
         json_files: list[dict] = []
         for name in self.champion_names:
@@ -64,9 +62,15 @@ class TestChampion(TestLeague):
         """
         Test case to check the GET endpoint of the champion API.
         """
-
         self.fetch_champion_names()
         for name in self.champion_names:
             query_params: str = urlencode({"name": name.lower()})
             response: Response = self.client.get(f"/lol/champion/?{query_params}")
             assert response.status_code == 200, f"Error in get {query_params}"
+
+
+class TestGames(TestLeague):
+    def test_get_guess_skill(self):
+        for _ in range(10):
+            response = self.client.get("/lol/game/guess/skill")
+            assert response.status_code == 200

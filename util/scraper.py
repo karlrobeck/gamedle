@@ -1,16 +1,35 @@
 import json
 import os
 import time
+from webbrowser import Chrome
+from bs4 import BeautifulSoup
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.options import Options
+from time import sleep
+import logging
+
+options = Options()
+options.add_argument("--headless")
+
+service = Service(EdgeChromiumDriverManager().install())
+driver = webdriver.Edge(service=service, options=options)
 
 
 def scrape_champion(link: str):
-    with requests.Session() as session:
-        response = session.get(link)
-        print(response.status_code)
-    html = BeautifulSoup(response.text, "html.parser")
+    driver.get(link)
+    button = WebDriverWait(driver, 3).until(
+        EC.element_to_be_clickable(
+            ("xpath", "//button[@data-testid='overview:seemorebutton']")
+        )
+    )
+    driver.execute_script("arguments[0].click();", button)
+    html = BeautifulSoup(driver.page_source, "html.parser")
 
     name = html.find("span", {"data-testid": "overview:title"}).text  # type: ignore
     subtitle = html.find("span", {"data-testid": "overview:subtitle"}).text  # type: ignore

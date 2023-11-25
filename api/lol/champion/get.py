@@ -4,6 +4,9 @@ from api.lol.champion.schemas import Champion, ChampionAbilities, ChampionSkin
 from api.database.session import getSession
 from api.database.models import LeagueChampion, LeagueSkill, LeagueSkin
 
+status_code = status.HTTP_200_OK
+summary = "Get League of legends Champion"
+
 
 async def endpoint(name: str, db: Session = Depends(getSession)) -> Champion:
     if not db.exec(select(LeagueChampion).where(LeagueChampion.name == name)).first():

@@ -60,3 +60,4 @@ This will start the API server with live reloading enabled.
 ## For School Purposes Only - Entrepreneurial Mind Group 4 Po-Key
 
 This project is intended for educational purposes as part of the Entrepreneurial Mind Group 4 Po-Key. Contributions are limited to the group members.
+
